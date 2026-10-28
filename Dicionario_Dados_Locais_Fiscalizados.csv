@@ -1,16 +1,16 @@
-CAMPO;DESCRIÇÃO;FORMATO;DOMÍNIO/OBSERVAÇÃO
-CÓDIGO LOCAL;Identificador do local de fiscalização;Alfanumérico;Pode conter um único código ou múltiplos códigos associados ao mesmo local, separados conforme apresentados na base
-ATIVAÇÃO;Data de início da fiscalização no local;Data no formato AAAA-MM-DD;Exemplo: 2024-07-10
-DESATIVAÇÃO;Data de término da fiscalização no local;Data no formato AAAA-MM-DD;Pode permanecer vazia quando não houver data de desativação informada
-NÚMERO DE SÉRIE;Número de registro do equipamento atribuído pelo fabricante;Alfanumérico;Pode haver mais de um número de série associado ao mesmo local
-DESCRIÇÃO DO LOCAL;Descrição textual da localização do ponto de fiscalização no logradouro;Texto;Pode conter referências de sentido viário, cruzamento, número, distância ou outro elemento de localização
-LATITUDE;Latitude da coordenada geográfica do local;Número decimal;Utiliza ponto (.) como separador decimal. Exemplo: -23.679847. Ao importar em ferramentas configuradas para vírgula decimal, aplicar a localidade compatível com ponto decimal, sem alterar o valor de origem
-LONGITUDE;Longitude da coordenada geográfica do local;Número decimal;Utiliza ponto (.) como separador decimal. Exemplo: -46.686833. Ao importar em ferramentas configuradas para vírgula decimal, aplicar a localidade compatível com ponto decimal, sem alterar o valor de origem
-FAIXAS;Quantidade de faixas fiscalizadas no local;Número inteiro;Representa o número de faixas abrangidas pela fiscalização no registro
-TIPO;Modalidade do equipamento de fiscalização;Texto;Valor apresentado conforme cadastro e classificação aplicável ao equipamento
-METROLÓGICO;Indica se o equipamento realiza fiscalização metrológica de velocidade;Texto;Valores SIM ou NÃO
-VELOCIDADE;Velocidade ou conjunto de velocidades estabelecidas para o ponto de fiscalização;Texto;Pode conter um ou mais limites de velocidade, conforme apresentados na base, por exemplo 50 km/h ou 60/50 km/h
-FISCALIZA FAIXA AZUL;Indica se o ponto contempla fiscalização relacionada à Faixa Azul destinada a motociclistas;Texto;Valores apresentados na base, normalmente Sim ou Não
-ENQUADRAMENTO;Código ou conjunto de códigos que identifica os tipos de fiscalização realizados pelo equipamento;Texto;Pode conter múltiplos códigos separados por ponto e vírgula (;). Para a interpretação dos códigos, consultar a tabela publicada no painel Mapa dos Locais Fiscalizados
-CAPTURA;Posição de captura da imagem do veículo;Texto;T = traseira, F = frontal e F/T = frontal e traseira
-REDUTOR;Indica a condição cadastrada de redução de velocidade no ponto de fiscalização;Texto;Preserva o valor conforme publicado na base, podendo incluir códigos como S, N, N/A ou S/N
+﻿CAMPO;DESCRIÇÃO;FORMATO;DOMÍNIO/OBSERVAÇÃO;
+CÓDIGO LOCAL;Identificador do local de fiscalização;Alfanumérico;Pode conter um único código ou múltiplos códigos associados ao mesmo local, conforme apresentados na base;
+ATIVAÇÃO;Data de início da fiscalização no local;Data no formato AAAA-MM-DD;Exemplo: 2024-07-10;
+DESATIVAÇÃO;Data de término da fiscalização no local;Data no formato AAAA-MM-DD;Pode permanecer vazia quando não houver data de desativação informada;
+NÚMERO DE SÉRIE;Número de registro do equipamento atribuído pelo fabricante;Alfanumérico;Pode haver mais de um número de série associado ao mesmo local;
+DESCRIÇÃO DO LOCAL;Descrição da localização do ponto de fiscalização no logradouro;Texto;Pode conter referências de sentido viário, cruzamento, número, distância ou outros elementos para identificação da localização;
+LATITUDE;Latitude da coordenada geográfica do local;Número decimal;Utiliza ponto (.) como separador decimal. Exemplo: -23.679847. Em ferramentas configuradas para vírgula decimal, a importação deve considerar a localidade compatível com ponto decimal, sem alterar o valor de origem;
+LONGITUDE;Longitude da coordenada geográfica do local;Número decimal;Utiliza ponto (.) como separador decimal. Exemplo: -46.686833. Em ferramentas configuradas para vírgula decimal, a importação deve considerar a localidade compatível com ponto decimal, sem alterar o valor de origem;
+FAIXAS;Quantidade de faixas fiscalizadas no local;Número inteiro;Representa o número de faixas abrangidas pela fiscalização no registro;
+TIPO;Modalidade do equipamento de fiscalização;Texto;Valor apresentado conforme o cadastro e a classificação aplicável ao equipamento;
+METROLÓGICO;Indica se o equipamento realiza fiscalização metrológica de velocidade;Texto;Valores SIM ou NÃO;
+VELOCIDADE;Velocidade ou conjunto de velocidades estabelecidas para o ponto de fiscalização;Texto;Pode conter um ou mais limites de velocidade, por exemplo 50 km/h ou 60/50 km/h;
+FISCALIZA FAIXA AZUL;Indica se o ponto contempla fiscalização relacionada à Faixa Azul destinada a motociclistas;Texto;Valores apresentados na base, normalmente Sim ou Não;
+ENQUADRAMENTO;Código ou conjunto de códigos que identifica os tipos de fiscalização realizados pelo equipamento;Texto;Pode conter múltiplos códigos separados por ponto e vírgula (;). Para interpretação dos códigos, consultar a tabela publicada no painel Mapa dos Locais Fiscalizados
+CAPTURA;Indica a posição de captura da imagem do veículo;Texto;T = traseira, F = frontal e F/T = frontal e traseira;
+REDUTOR;Indica a condição cadastrada de redução de velocidade no ponto de fiscalização;Texto;Preserva o valor conforme publicado na base, podendo incluir códigos como S, N, N/A ou S/N;
